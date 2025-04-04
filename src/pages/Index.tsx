@@ -25,7 +25,7 @@ const Index = () => {
             THE FUTURE OF{" "}
             <span className="relative">
               ENERGY
-              <span className="absolute left-0 bottom-2 md:bottom-4 w-full h-6 md:h-8 bg-[#FEF7CD] -z-10"></span>
+              <span className="absolute left-0 bottom-2 md:bottom-4 w-full h-6 md:h-8 bg-[#A7E8B4] -z-10 skew-y-1"></span>
             </span>
             ,
             <br />
