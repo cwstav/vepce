@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import RoundMenuButton from "@/components/RoundMenuButton";
 
 const Index = () => {
   return (
@@ -11,11 +12,9 @@ const Index = () => {
         <div></div> {/* Empty div to push content to the right */}
         <div className="flex items-center gap-6">
           <Link to="/" className="text-lg font-normal">
-            STERLING STRAND
+            VEPCE
           </Link>
-          <Button variant="ghost" size="icon" className="rounded-full bg-black text-white h-12 w-12">
-            <Menu className="h-6 w-6" />
-          </Button>
+          <RoundMenuButton />
         </div>
       </header>
 
@@ -23,14 +22,14 @@ const Index = () => {
       <main className="flex flex-col justify-center items-center h-[calc(100vh-160px)]">
         <div className="text-center max-w-5xl px-4">
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold leading-tight md:leading-tight">
-            HIRING IS A{" "}
+            THE ENERGY{" "}
             <span className="relative">
-              SCIENCE
+              TRANSITION
               <span className="absolute left-0 bottom-2 md:bottom-4 w-full h-6 md:h-8 bg-[#FEF7CD] -z-10"></span>
             </span>
-            , NOT
+            {" "}IN
             <br />
-            AN ART.
+            SOUTH EASTERN EUROPE IS HAPPENING TODAY.
           </h1>
         </div>
       </main>
