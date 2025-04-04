@@ -22,14 +22,14 @@ const Index = () => {
       <main className="flex flex-col justify-center items-center h-[calc(100vh-160px)]">
         <div className="text-center max-w-5xl px-4">
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold leading-tight md:leading-tight">
-            THE ENERGY{" "}
+            THE FUTURE OF{" "}
             <span className="relative">
-              TRANSITION
+              ENERGY
               <span className="absolute left-0 bottom-2 md:bottom-4 w-full h-6 md:h-8 bg-[#FEF7CD] -z-10"></span>
             </span>
-            {" "}IN
+            ,
             <br />
-            SOUTH EASTERN EUROPE IS HAPPENING TODAY.
+            TODAY.
           </h1>
         </div>
       </main>
