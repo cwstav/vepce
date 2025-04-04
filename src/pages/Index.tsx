@@ -1,20 +1,27 @@
-
-import { Button } from "@/components/ui/button";
-import { ArrowDown, Menu } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
-import RoundMenuButton from "@/components/RoundMenuButton";
+import CircularMenu from "@/components/CircularMenu";
 
 const Index = () => {
+  const menuItems = [
+    { label: "Overview", href: "/overview" },
+    { label: "Team", href: "/team" },
+    { label: "Searches", href: "/searches" },
+    { label: "Approach", href: "/approach" },
+    { label: "Talent Tips", href: "/talent-tips" },
+    { label: "Contact", href: "/contact" },
+  ];
+
   return (
     <div className="h-screen w-full relative bg-white text-black overflow-hidden">
       {/* Header */}
       <header className="flex justify-between items-center p-8 md:p-12">
         <div></div> {/* Empty div to push content to the right */}
         <div className="flex items-center gap-6">
-          <Link to="/" className="text-lg font-normal">
+          <Link to="/" className="text-lg font-normal z-50 relative">
             VEPCE
           </Link>
-          <RoundMenuButton />
+          <CircularMenu items={menuItems} />
         </div>
       </header>
 
