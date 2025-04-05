@@ -1,3 +1,4 @@
+
 import { ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import CircularMenu from "@/components/CircularMenu";
@@ -32,7 +33,7 @@ const Index = () => {
             THE FUTURE OF{" "}
             <span className="relative">
               ENERGY
-              <span className="absolute left-0 bottom-0 w-full h-8 md:h-10 bg-[#A7E8B4] opacity-90 -z-10 transform -rotate-1"></span>
+              <span className="absolute left-0 bottom-2 md:bottom-4 w-full h-6 md:h-8 bg-[#A7E8B4] -z-10 skew-y-1"></span>
             </span>
             ,
             <br />
